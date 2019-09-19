@@ -1,0 +1,23 @@
+
+body,ul,p,h1,h2,h3,h4,dd,dl,form,input,textarea,select {padding: 0;margin: 0;font-family: Arial, Helvetica, sans-serif;}
+li {list-style: none;}
+img {border: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+/*默认样式重置（css reset）*/
+
+body {background:#fff url(../imgs/body-bg.gif) repeat-x;}
+#top{width:960px; height:30px; margin:0 auto;}
+
+.top-menu{float: left;}
+.top-menu li{float: left;background: url(../imgs/top-ico.gif) no-repeat right 14px;font-size: 13px;line-height: 30px;padding-right:18px;margin-right: 15px; }
+.top-menu a{color: #c0c0c0;}
+.top-menu a:hover{color: #fff;}
+.top-menu .no-dot{background: none;padding: 0;margin: 0;}
+
+.top-bar{float: right;}
+.top-bar li{float: left;height: 30px;color: #fff;font-weight: bold;font-size: 13px;line-height: 30px;}
+.top-bar .phone{background: url(../imgs/top-ico.gif) no-repeat 8px -17px;padding: 0 38px;}
+.top-bar .help{background: url(../imgs/top-ico.gif) no-repeat 0 -46px;padding: 0 38px;}
+.top-bar .help a{ color: #fff;}
+.top-bar .space{ margin-right: 12px;}
