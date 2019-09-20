@@ -1,23 +1,47 @@
 
-body,ul,p,h1,h2,h3,h4,dd,dl,form,input,textarea,select {padding: 0;margin: 0;font-family: Arial, Helvetica, sans-serif;}
+body,ul,p,h1,h2,h3,h4,dd,dl,form,input,textarea,select {padding: 0;margin: 0;font-family: Arial;}
 li {list-style: none;}
 img {border: none;}
 a {text-decoration: none;}
 a:hover {text-decoration: underline;}
 /*默认样式重置（css reset）*/
 
-body {background:#fff url(../imgs/body-bg.gif) repeat-x;}
+body {background:#fff url(../imgs/body-bg2.png) repeat-x;}
+
 #top{width:960px; height:30px; margin:0 auto;}
 
 .top-menu{float: left;}
-.top-menu li{float: left;background: url(../imgs/top-ico.gif) no-repeat right 14px;font-size: 13px;line-height: 30px;padding-right:18px;margin-right: 15px; }
+.top-menu li{float: left;background: url(../imgs/top-ico3.png) no-repeat right 14px;font-size: 13px;line-height: 30px;padding-right:18px;margin-right: 15px; }
 .top-menu a{color: #c0c0c0;}
 .top-menu a:hover{color: #fff;}
 .top-menu .no-dot{background: none;padding: 0;margin: 0;}
 
 .top-bar{float: right;}
 .top-bar li{float: left;height: 30px;color: #fff;font-weight: bold;font-size: 13px;line-height: 30px;}
-.top-bar .phone{background: url(../imgs/top-ico.gif) no-repeat 8px -17px;padding: 0 38px;}
-.top-bar .help{background: url(../imgs/top-ico.gif) no-repeat 0 -46px;padding: 0 38px;}
+.top-bar .phone{background: url(../imgs/top-ico3.png) no-repeat 8px -17px;padding: 0 38px;}
+.top-bar .help{background: url(../imgs/top-ico3.png) no-repeat 0 -47px;padding: 0 38px;}
 .top-bar .help a{ color: #fff;}
 .top-bar .space{ margin-right: 12px;}
+
+#header {width: 960px;height: 99px;margin: 0 auto;background: url(../imgs/h-bg2.png) no-repeat;position: relative;}
+#shopping {width: 260px;height: 100px;background: url(../imgs/h-bag2.png) no-repeat;}
+#shopping p{font-size: 20px;color:#f7f7f7;font-family: arial;padding: 30px 0 0 84px;}
+#shopping a{width: 114px;height: 23px;background: url(../imgs/h-k.png) no-repeat;display:block;position: absolute;top: 63px;left: 104px;font-size: 15px;color: #ffc200;font-weight: bold;text-align: center;line-height: 23px;}
+#shopping a:hover{color: #f29441;}
+#header h1{width: 243px;height:99px;background: url(../imgs/h-logo.png) no-repeat;position: absolute;top: 0;left: 360px;}
+#header .search{top:33px;right: 2px;}
+.search {width: 292px;height: 31px;background: url(../imgs/h-dialogbox2.png) no-repeat;position: absolute;}
+.search .text{width: 230px;height: 31px;background: none;border: none;font-size: 13px;color: #666666;position: absolute;top:0;left: 20px;outline: none;}
+.search .btn{width:42px;height:31px;background: none;border: none;position: absolute;top:0;right: 0;outline: none;}
+
+#nav{width: 960px;height: 36px;margin: 0 auto;padding-top: 8px;}
+#nav li{float: left;height: 28px;margin-right: 8px;}
+#nav a {float:left;font-size: 15px;font-family:arial;color: #ffffff;line-height: 28px;}
+#nav strong{float:left;font-weight: normal;}
+#nav span{padding: 0 16px;float:left;}
+
+#nav a:hover , #nav .active a{background:url(../imgs/center.png) repeat-x;}
+#nav a:hover strong,#nav .active strong{background: url(../imgs/right.png) no-repeat;}
+#nav a:hover span ,#nav .active span{background: url(../imgs/left.png) no-repeat;}
+
+{}
